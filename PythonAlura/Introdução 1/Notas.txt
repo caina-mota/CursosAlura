@@ -1,0 +1,25 @@
+print("Tentativa {} de {}".format(rodada, total_de_tentativas))
+
+existe
+	break - sai do laço
+	continue -  interrompe o laço e o repete próxima iteração
+
+
+.format manipulação/formatação 
+>>> print("R$ {:7.2f}".format(1234.50))
+R$ 1234.50
+>>> print("R$ {:7.2f}".format(1.5))
+R$    1.50
+>>> print("Data {:02d}/{:02d}".format(9, 4))
+Data 09/04
+
+Ordenação com .format
+print("Ola Sr.{1} {0}".format("Cordeiro","Leonardo"))
+
+import random
+random está no intervalo entre 0.0 e 1.0, necessitando da função round() ou int()
+random.randrange(1, 101)
+
+
+
+O Python 3 usa uma forma de arredondar, que também é chamado de Banker's rounding e sempre arredonda para o próximo valor par.
